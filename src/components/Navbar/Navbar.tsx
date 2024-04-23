@@ -31,12 +31,12 @@ const Nav2 = () => {
  ]
 
   return (
-    <nav className='bg-black'>
-      <div className='max-w7xl mx-auto px-4 sm:px-6 lg:px-8'>
-        <div className='flex items-center justify-between md:justify-around h-16'>
+    <nav className='bg-slate-900'>
+      <div className='max-w7xl mx-auto px-4 sm:px-6 '>
+        <div className='flex items-center justify-between  h-16'>
           <div className='flex items-center'>
               <div className='flex-shrink-0 flex ml-2 items-center justify-center'>
-            <Image className="mr-2" src="/images/logo.png" width={50} height={50} alt="logo" />
+            <Image className="mr-2" src="/images/logo.png" width={40} height={40} alt="logo" />
             <h2 className="text-xl text-white font-bold">
                Amir.<span className=" text-teal-400 font-bold">Co</span>
             </h2>
@@ -46,7 +46,7 @@ const Nav2 = () => {
           <div className='hidden md:block'>
             <div className='ml-4 flex items-center space-x-2'>             
               {navLinks.map((link,index) => (
-                    <li key={index}>
+                    <li key={index} className='list-none '>
                         <NavLink href={link.path}title={link.title} />
                     </li>
                     ))
@@ -72,7 +72,7 @@ const Nav2 = () => {
         <div className='md:hidden'>
           <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3 '>
           {navLinks.map((link,index) => (
-                    <li key={index} className='p-1 list-none text-center '>
+                    <li key={index} className='p-1 list-none text-center'>
                         <NavLink href={link.path}title={link.title} />
                     </li>
                     ))
