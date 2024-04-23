@@ -31,7 +31,7 @@ const Nav2 = () => {
  ]
 
   return (
-    <nav className='bg-slate-900'>
+    <nav className=' container mx-auto'>
       <div className='max-w7xl mx-auto px-4 sm:px-6 '>
         <div className='flex items-center justify-between  h-16'>
           <div className='flex items-center'>
