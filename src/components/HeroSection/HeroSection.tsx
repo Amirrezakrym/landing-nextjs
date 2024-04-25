@@ -2,10 +2,12 @@ import React from "react";
 import Image from "next/image";
 import { AiFillInstagram , AiOutlineTwitter } from "react-icons/ai";
 import { FcOk } from "react-icons/fc";
+
 const HeroSection = () => {
   return (
+    <div className="bg-slate-950 pb-10">
     <div className="container flex mx-auto px-10 py-4">
-      <div className="grid grid-cols-1 sm:grid-cols-12 bg-[url('../../public/images/back-img.png')] bg-bottom md:bg-right bg-no-repeat bg-contain bg-back">
+      <div className="grid grid-cols-1 sm:grid-cols-12 bg-[url('../../public/images/back-img.png')] bg-bottom md:bg-right bg-no-repeat bg-contain">
         
         <div className="col-span-7  place-self-center text-center sm:text-left">
         
@@ -53,6 +55,7 @@ const HeroSection = () => {
         </div>
       </div>
     </div>
+  </div>
   );
 };
 
