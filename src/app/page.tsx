@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar/Navbar";
 import HeroSection from "@/components/HeroSection/HeroSection"
 import Colleagues from "@/components/Colleagues/Colleagues";
+import Card from "@/components/Card/Card";
 export default function Home() {
   return (
     <>
@@ -14,7 +15,10 @@ export default function Home() {
 
       
       <Colleagues />
-
+      
+      <div className="bg-[#121212]">
+      <Card />
+      </div>
     </>
   )
 }

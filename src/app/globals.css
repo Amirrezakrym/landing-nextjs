@@ -2,14 +2,3 @@
 @tailwind components;
 @tailwind utilities;
  
-.active-text{
-    color: rgb(7 89 133 / var(--tw-text-opacity));
-    font-weight: bold;
-}
-
-.bg-back{
-    background-image: url(../../public/images/back-img.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
-}

@@ -9,8 +9,8 @@ const Colleagues = () => {
 
         </div>
 
-        <div className='container mx-auto mt-14'>
-            <div className='flex justify-center items-center'>
+        <div className='container mx-auto mt-14 '>
+            <div className='flex justify-center items-center flex-wrap sm:flex-nowrap'>
                 <div className='p-2 sm:p-4 md:p-5 mb-5'>
                     <Image 
                     src="/images/icon.svg"
@@ -29,7 +29,7 @@ const Colleagues = () => {
                 />
 
                 </div>
-                <div className='p-2 sm:p-4 md:p-5 mb-5'>
+                <div className='p-2 sm:p-4 md:p-5 mb-5 hidden sm:block'>
                     <Image 
                     src="/images/icon.svg"
                     alt='icon'
@@ -38,7 +38,7 @@ const Colleagues = () => {
                 />
 
                 </div>
-                <div className='p-2 sm:p-4 md:p-5 mb-5'>
+                <div className='p-2 sm:p-4 md:p-5 mb-5 hidden sm:block'>
                     <Image 
                     src="/images/icon.svg"
                     alt='icon'
