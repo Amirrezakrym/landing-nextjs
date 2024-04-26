@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 const Card = () => {
   return (
-<div className="bg-[#121212]">
+<div className="bg-zinc-950">
     <div className='pt-[4rem] md:pt[8rem] pb-[5rem] container mx-auto'>
         <div className='flex flex-col justify-center items-center'>
             <div className='flex justify-center items-center'>

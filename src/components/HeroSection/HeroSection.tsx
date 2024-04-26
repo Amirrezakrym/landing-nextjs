@@ -5,15 +5,15 @@ import { FcOk } from "react-icons/fc";
 
 const HeroSection = () => {
   return (
-    <div className="bg-slate-950 pb-10">
+    <div className="bg-zinc-950 pb-10">
     <div className="container flex mx-auto px-10 py-4">
       <div className="grid grid-cols-1 sm:grid-cols-12 bg-[url('../../public/images/back-img.png')] bg-bottom md:bg-right bg-no-repeat bg-contain">
         
         <div className="col-span-7  place-self-center text-center sm:text-left">
         
         <div className="text-white col-span-2  my-5">
-          <button className="mr-3 bg-yellow-600 text-black rounded-full p-3 text-3xl border-2"><AiFillInstagram /></button>
-          <button className="mx-3 bg-teal-400 text-white rounded-full p-3 text-3xl border-2"><AiOutlineTwitter/></button>
+          <button className="mr-3 bg-yellow-600 text-black rounded-full p-3 text-3xl border-2 transition ease-in hover:scale-110"><AiFillInstagram /></button>
+          <button className="mx-3 bg-teal-400 text-white rounded-full p-3 text-3xl border-2 transition ease-in hover:scale-110"><AiOutlineTwitter/></button>
         </div>
           
           <h1 className="font-sans text-white mb-4 text-3xl sm:text-5xl lg:text-6xl font-bold">
@@ -25,8 +25,8 @@ const HeroSection = () => {
           </p>
 
           <div className="flex justify-center md:justify-start">
-            <button className="text-white text-sm bg-teal-400 border-2 px-6 md:px-10 py-2 md:py-4 font-bold  rounded-full mr-4 hidden sm:block">Contact Us</button>
-            <div className= " bg-white text-black pr-7 md:pr-9 py-1 md:py-2 pl-2  rounded-full inline-flex justify-around items-center ">
+            <button className="text-white text-sm bg-teal-400 border-2 px-6 md:px-10 py-2 md:py-4 font-bold  rounded-full mr-4 hidden sm:block  after:bg-teal-700  p-3  z-30 relative  after:-z-20 after:absolute after:h-1 after:w-1  after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700 hover:font-bold ">Contact Us</button>
+            <div className= " bg-white text-black pr-7 md:pr-9 py-1 md:py-2 pl-2  rounded-full inline-flex justify-around items-center  after:bg-zinc-400 font-medium p-3 px-5  z-30 relative  after:-z-20 after:absolute after:h-1 after:w-1  after:right-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700 hover:font-bold ">
             
         
             <button className=" bg-slate-300 text-black rounded-full p-2 text-xl"><FcOk/></button>

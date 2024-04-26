@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Landing Page",
-  description: "Landing Page wthi nextjs",
+  description: "Landing Page wthit nextjs",
 };
 
 export default function RootLayout({

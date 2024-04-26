@@ -3,7 +3,7 @@ import Image from "next/image";
 const HowWeWork = () => {
    return (
       <>
-      <div className="bg-[#121212]">
+      <div className="bg-zinc-950">
       <div className="pt-[3rem] md:pt[5rem] pb-[5rem] container mx-auto">
          <div className="grid grid-cols-1 md:grid-cols-2">
 

@@ -3,7 +3,7 @@ import React from "react";
 const NewsLatter = () => {
    return (
       <div className="bg-[url('../../public/images/Newslatter.jpg')] bg-center bg-no-repeat bg-cover">
-        <div className="w-full h-3 bg-slate-900"></div>
+        <div className="w-full h-3 bg-zinc-900"></div>
          <div className="pt-[3rem] md:pt[5rem] pb-[5rem] container mx-auto">
             <div className="flex flex-col justify-center items-center gap-6 font-sans">
                <div>
@@ -20,13 +20,13 @@ const NewsLatter = () => {
                      <div className="relative w-4/5 sm:w-3/4 mx-auto">         
                         <input
                            type="email"
-                           className="block w-full mx-auto p-4 sm:p-5 text-sm text-white font-bold rounded-2xl bg-teal-400"
+                           className="block w-full mx-auto p-4 sm:p-5 text-sm text-white font-bold rounded-2xl bg-teal-400 focus:outline-none"
                            placeholder="Email Address"
                            required
                         />
                         <button
                            type="submit"
-                           className="text-white absolute right-3 bottom-2.5 bg-yellow-400 focus:outline-none font-medium rounded-xl text-sm px-3 py-2 sm:px-4 sm:py-3"
+                           className="text-white absolute right-3 bottom-2.5 bg-yellow-400 focus:outline-none font-medium rounded-xl text-sm px-3 py-2 sm:px-4 sm:py-3   after:bg-amber-700 p-3 z-30 after:-z-20 after:absolute after:h-1 after:w-1  after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700 "
                         >
                            Subscribe
                         </button>
@@ -36,7 +36,7 @@ const NewsLatter = () => {
                </div>
             </div>
          </div>
-         <div className="w-full h-3 bg-slate-900"></div>
+         <div className="w-full h-3 bg-zinc-900"></div>
       </div>
    );
 };

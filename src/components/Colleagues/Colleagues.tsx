@@ -3,7 +3,7 @@ import Image from 'next/image'
 import CounterSection from './CounterSection'
 const Colleagues = () => {
   return (
-    <div className='bg-zinc-900'>
+    <div className='bg-neutral-900'>
         <div className='relative sm:-top-7  md:-top-10 lg:-top-12'>
         <CounterSection />
 
